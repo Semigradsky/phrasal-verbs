@@ -1,0 +1,28 @@
+{
+  "name": "phrasal-verbs",
+  "version": "0.0.0",
+  "description": "Get phrasal verbs",
+  "main": "common.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "rm common.json & js-yaml src/common.yml > common.json",
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Semigradsky/phrasal-verbs.git"
+  },
+  "keywords": [
+    "phrasal",
+    "verbs"
+  ],
+  "author": "Semigradsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Semigradsky/phrasal-verbs/issues"
+  },
+  "homepage": "https://github.com/Semigradsky/phrasal-verbs",
+  "devDependencies": {
+    "js-yaml": "^3.3.1"
+  }
+}
